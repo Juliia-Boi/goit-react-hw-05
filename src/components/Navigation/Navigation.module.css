@@ -1,0 +1,24 @@
+.nav {
+  display: flex;
+  gap: 20px;
+  background-color: #222;
+  padding: 15px 30px;
+  border-radius: 10px;
+  margin-bottom: 30px;
+}
+
+.nav a {
+  color: #fff;
+  font-size: 18px;
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+.nav a:hover {
+  color: #ff9800;
+}
+
+.active {
+  color: #ff9800;
+  font-weight: bold;
+}

@@ -1,0 +1,43 @@
+.castList {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+  gap: 20px;
+  padding: 0;
+  list-style: none;
+}
+
+.castList li {
+  text-align: center;
+  background-color: #f4f4f4;
+  border-radius: 10px;
+  overflow: hidden;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.castList li:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.actorImage {
+  width: 100%;
+  height: auto;
+  border-radius: 8px;
+}
+
+p {
+  margin: 10px 0;
+  font-size: 14px;
+  color: #333;
+}
+
+p:first-of-type {
+  font-weight: bold;
+  font-size: 16px;
+  color: #222;
+}
+
+p:last-of-type {
+  color: #777;
+  font-style: italic;
+}
